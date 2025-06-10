@@ -8,22 +8,6 @@ import { getRandomWord } from "./utils";
 import Confetti from 'react-confetti'
 import WinOrLose from "./components/WinOrLose";
 
-/**
- * Backlog:
- * 
- * ✅ Farewell messages in status section
- * ✅ Disable the keyboard when the game is over
- * ✅ Fix a11y issues
- * ✅ Choose a random word from a list of words
- * ✅ Make the New Game button reset the game
- * - Reveal what the word was if the user loses the game
- * ✅ Confetti drop when the user wins
- * 
- * Challenge: Reveal the missing letters of the word if the user
- * loses the game. Style the missing letters to have the same red
- * color as the wrong letter keys.
- */
-
 function App() {
   const [currentWord, setCurrentWord] = useState(getRandomWord());
   const [guessedLetters, setGuessedLetters] = useState([]);

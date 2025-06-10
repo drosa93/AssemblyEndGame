@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 import Header from "./components/Header";
 import Status from "./components/Status";
-import LanguagesFrame from "./components/languages";
+import LanguagesFrame from "./components/Languages";
 import clsx from "clsx";
 import { getRandomWord } from "./utils";
 import Confetti from 'react-confetti'
